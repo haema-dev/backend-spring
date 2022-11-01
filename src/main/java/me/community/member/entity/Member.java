@@ -11,6 +11,7 @@ import javax.validation.constraints.NotBlank;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @Entity
 @Getter
 @NoArgsConstructor
@@ -33,5 +34,10 @@ public class Member {
         this.email = email;
         this.password = password;
         this.name = name;
+    }
+
+    public void memberChange(String name, String password) {
+        this.name = name;
+        this.password = password;
     }
 }

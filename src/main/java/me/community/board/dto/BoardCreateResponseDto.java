@@ -7,17 +7,16 @@ import lombok.NoArgsConstructor;
 
 @Getter
 @NoArgsConstructor
-public class BoardResponseDto {
+public class BoardCreateResponseDto {
     private Long board_id;
     private String title;
     private String content;
     private String name;
 
     @Builder
-    public BoardResponseDto(Long board_id, String title, String content, String name) {
+    public BoardCreateResponseDto(Long board_id, String title, String content) {
         this.board_id = board_id;
         this.title = title;
         this.content = content;
-        this.name = name;
     }
 }

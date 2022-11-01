@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 import me.community.board.entity.Board;
 import me.community.member.entity.Member;
 
-import java.time.LocalDateTime;
 
 @Getter
 @NoArgsConstructor

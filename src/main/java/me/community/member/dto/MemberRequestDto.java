@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import me.community.member.entity.Member;
 
+
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
